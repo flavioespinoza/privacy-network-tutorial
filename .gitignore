@@ -1,0 +1,38 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+
+
+# files do not want to submit into git
+notgitmanaged
+.vscode
+.idea
+
+# do not save any key files, can recreate with the generate command.
+# ok to save cert as public
+# NOTE normally keys would not be checked in but as an example of setting
+# up a network these are
+#key.pem
+#*.key.pem
+#certificates/**/*.json
+#files
+db
+copydb
+
+docs/drafts
+
+testnet-tutorial
