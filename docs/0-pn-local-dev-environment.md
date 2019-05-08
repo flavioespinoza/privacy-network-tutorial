@@ -62,6 +62,73 @@ cd ~/webshield-dev
 git clone https://github.com/webshield-dev/privacy-networks.git
 ```
 
+CD into `privacy-networks` directory
+```bash
+cd ~/webshield-dev/privacy-networks
+```
+
+### Checkout Branch - Your GitHub Username
+
+Verify `your-github-username`
+```bash
+git config user.name
+```
+```bash
+# Output
+`your-github-username`
+```
+
+Checkout branch with `your-github-username`
+```bash
+git checkout -b `your-github-username`
+```
+```bash
+# Output
+Switched to a new branch 'your-github-username'
+```
+
+Push branch to the `privacy-networks` repo
+```bash
+git push -u origin `your-github-username`
+```
+```bash
+# Output
+*[new branch] `your-github-username` -> `your-github-username`
+Branch 'your-github-username' set up to track remote branch 'your-github-username' from 'origin'.
+```
+
+> Push all changes to this branch
+
+#### Example
+
+Verify `GitHub username`
+```bash
+git config user.name
+```
+```bash
+# Output
+`flavioespinoza`
+```
+
+Checkout branch with `GitHub username`
+```bash
+git checkout -b `flavioespinoza`
+```
+```bash
+# Output
+Switched to a new branch 'flavioespinoza'
+```
+
+Push branch to the `privacy-networks` repo
+```bash
+git push -u origin `flavioespinoza`
+```
+```bash
+# Output
+*[new branch] `flavioespinoza` -> `flavioespinoza`
+Branch 'flavioespinoza' set up to track remote branch 'flavioespinoza' from 'origin'.
+```
+
 ## Next Step
 
 - [1. Privacy Network - MyRA Resource Authority](1-pn-myra.md)
